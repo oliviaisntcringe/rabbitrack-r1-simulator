@@ -1,0 +1,10 @@
+# Build
+build/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Binary
+mp3_sim
+*.o
