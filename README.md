@@ -1,5 +1,19 @@
 # Rabbitrack R1 — Simulator
 
+<div align="center">
+
+[![C Badge](https://img.shields.io/badge/C-99/11-00599c?style=flat-square&logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![SDL2](https://img.shields.io/badge/SDL2-Graphics-E34C26?style=flat-square&logo=opengl&logoColor=white)](https://www.libsdl.org/)
+[![LVGL](https://img.shields.io/badge/LVGL-v9.x-1fb0f1?style=flat-square)](https://lvgl.io/)
+[![CMake](https://img.shields.io/badge/Build-CMake%203.16%2B-064F8C?style=flat-square&logo=cmake&logoColor=white)](https://cmake.org/)
+[![Platforms](https://img.shields.io/badge/Platforms-macOS%20%7C%20Linux-black?style=flat-square)](#требования)
+[![Status](https://img.shields.io/badge/Status-Active-27ae60?style=flat-square)](#возможности)
+[![License](https://img.shields.io/badge/License-Private-red?style=flat-square)](#лицензия)
+
+SDL2-based firmware simulator for Rabbitrack R1 development without hardware
+
+</div>
+
 SDL2 симулятор прошивки Rabbitrack R1 для разработки UI на macOS/Linux без реального железа.
 
 Симулятор воспроизводит интерфейс LVGL, проигрывает настоящие MP3 файлы через
@@ -90,7 +104,7 @@ make -j$(nproc)
 
 ---
 
-## Структура проекта
+## Струк��ура проекта
 
 ```
 rabbitrack-r1-simulator/
